@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.yt-dlp" name="yt-dlp" version="2024.8.6" provider-name="Team Roketto">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="resources/lib/yt-dlp"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A feature-rich command-line audio/video downloader</summary>
+		<description lang="en_GB">yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc.</description>
+		<platform>all</platform>
+		<license>The Unlicense</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>

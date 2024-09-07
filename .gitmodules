@@ -1,0 +1,3 @@
+[submodule "resources/lib/yt-dlp"]
+	path = resources/lib/yt-dlp
+	url = https://github.com/yt-dlp/yt-dlp.git
